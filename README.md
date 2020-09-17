@@ -56,7 +56,7 @@ swift语言调用【现实例化并配置属性，再进行绑定数据】
     // 实例化对象（及其设置属性）
     let kScrollview = KScrollview.K_ShareInitView { (make) in
                            make.K_MakeFrame(CGRect(x: 0, y: kScaleWidth(100), width: KScreen_Width, height: kScaleWidth(220)))
-                           .K_MakeSuperView(self.view)
+                           .K_MakeSuperView(self.view)                 // 添加到某个视图上
                            .K_MakeItem_heiht(160)                      // 视图内容（图片）高度
                            .K_MakeMarginDistanDce_LeftAndRight(10)     // 左右边距
                            .K_MakeMarginDistanDce_TopAndBottom(5)      // 上下边距
