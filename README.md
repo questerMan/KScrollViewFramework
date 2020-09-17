@@ -1,5 +1,6 @@
-# KScrollViewFramework
-分页滚动展示视图
+# KScrollViewFramework 滚动视图
+
+![Image](https://github.com/questerMan/KScrollViewFramework/blob/master/KScrollViewFramework.png)
 
 特点：
      
