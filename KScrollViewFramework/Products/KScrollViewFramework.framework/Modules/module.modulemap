@@ -1,0 +1,11 @@
+framework module KScrollViewFramework {
+  umbrella header "KScrollViewFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module KScrollViewFramework.Swift {
+    header "KScrollViewFramework-Swift.h"
+    requires objc
+}
