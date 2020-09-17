@@ -212,7 +212,6 @@ extension KScrollview: UICollectionViewDelegate{
     @objc public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.stopTimer() //销毁
         let indext = Int(scrollView.contentOffset.x / self.bounds.width)
-        print("=============:\(indext)")
     }
     
     // 触摸后显示的内容视图
